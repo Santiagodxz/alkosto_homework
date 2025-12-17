@@ -1,47 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
-</head>
-<body>
-  <header class="navbar">
-    <div class="logo">
-      <img src="./img/alkosto-logo-header.svg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- START BARRA DE NAVEGACION INFERIOR  -->
+    <header class="nav">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./img/alkosto-logo-header.svg" alt="" />
+        </div>
+        <div class="mainnav">
+          <ul>
+            <li class="hyper">⭐ Hiperofertas</li>
+            <li>Venta: (601 746 8001</li>
+            <li>Servicio: (601) 407 3033</li>
+            <li>Sigue tu pedido</li>
+            <li>Nuestras tiendas</li>
+            <li>Catálogo</li>
+            <li>Ayuda</li>
+          </ul>
+        </div>
+
+        <div class="search">
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder=" 🔎 ¿Qué buscas hoy?"
+          />
+        </div>
+
+        <div class="user">
+          <div class="button1">
+            <i class="bi bi-person-circle"></i>
+            <p>Mi Cuenta</p>
+          </div>
+
+          <p>|</p>
+
+          <div class="button2">
+            <i class="bi bi-cart"></i>
+            <p>Mi Carrito</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END BARRA DE NAVEGACION INFERIOR  -->
+
+    <!-- DIV CLASE CONTAINER Que va a dar un ancho maximo de 1200px para que no se vayan las cosas hasta los bordes de la pagina en pantallas grandes -->
+
+    <!-- START BARRA DE NAVEGACION INFERIOR  -->
+    <div class="container">
+      <div class="nav2">
+        <ul class="nav2_list">
+          <li><a href="#">Celulares</a></li>
+          <li><a href="#">Computadores</a></li>
+          <li><a href="#">Electrodomésticos</a></li>
+          <li><a href="#">TV</a></li>
+          <li><a href="#">Accesorios</a></li>
+          <li><a href="#">Videojuegos</a></li>
+          <li><a href="#">Audio</a></li>
+          <li><a href="#">Cámaras</a></li>
+          <li><a href="#">Pines</a></li>
+          <li><a href="#">Hogar</a></li>
+          <li><a href="#">Deportes</a></li>
+          <li><a href="#">Llabtas y Motos</a></li>
+          <li><a href="#">Juguetes</a></li>
+          <li><a href="#">Otros</a></li>
+        </ul>
+      </div>
     </div>
-    <div >
-      <ul class="mainnav">
-        <li>Hiperofertas</li>
-        <li>Venta: (601 746 8001</li>
-        <li>Servicio: (601) 407 3033</li>
-        <li>Sigue tu pedido</li>
-        <li>Nuestras tiendas</li>
-        <li>Catálogo</li>
-        <li>Ayuda</li>
+    <!-- END BARRRA DE NAVEGACION INFERIOR -->
+
+    <!-- START HERO -->
+    <div class="hero">
+      <!-- CUADROS CON IMAGENES -->
+      <ul class="hero_list">
+        <li>
+          <img src="./img/hero_celulares.jpeg" alt="" />
+          <p>Celulares</p>
+        </li>
+        <li>
+          <img src="./img/hero_electro.jpeg" alt="" />
+          <p>Electrodomésticos</p>
+        </li>
+        <li>
+          <img src="./img/hero_computador.jpeg" alt="" />
+          <p>Computadores</p>
+        </li>
+        <li>
+          <img src="./img/hero_televisores.jpeg" alt="" />
+          <p>Televisores</p>
+        </li>
+        <li>
+          <img src="./img/hero_videojuegos.jpeg" alt="" />
+          <p>Videojuegos</p>
+        </li>
+        <li>
+          <img src="./img/hero_audio.jpeg" alt="" />
+          <p>Audio</p>
+        </li>
+        <li>
+          <img src="./img/hero_electrohogar.jpeg" alt="" />
+          <p>Electrohogar</p>
+        </li>
+        <li>
+          <img src="./img/hero_smartwatch.jpeg" alt="" />
+          <p>Smartwatch</p>
+        </li>
+        <li>
+          <img src="./img/hero_audifonos.jpeg" alt="" />
+          <p>Audifonos</p>
+        </li>
+        <li>
+          <img src="./img/hero_mouse.jpeg" alt="" />
+          <p>Accesorios</p>
+        </li>
+        <li>
+          <img src="./img/hero_camaras.jpeg" alt="" />
+          <p>Cámaras</p>
+        </li>
+        <li>
+          <img src="./img/hero_domotica.jpeg" alt="" />
+          <p>Domótica</p>
+        </li>
+        <li>
+          <img src="./img/hero_muebles.jpeg" alt="" />
+          <p>Muebles</p>
+        </li>
+        <li>
+          <img src="./img/hero_colchones.jpeg" alt="" />
+          <p>Colchones</p>
+        </li>
+        <li>
+          <img src="./img/hero_llantas.jpeg" alt="" />
+          <p>Llantas</p>
+        </li>
+        <li>
+          <img src="./img/hero_impresoras.jpeg" alt="" />
+          <p>Impresoras</p>
+        </li>
+        <li>
+          <img src="./img/hero_proyectores.jpeg" alt="" />
+          <p>Proyectores</p>
+        </li>
+        <li>
+          <img src="./img/hero_cocina.jpeg" alt="" />
+          <p>Cocina</p>
+        </li>
+        <li>
+          <img src="./img/hero_mesa.jpeg" alt="" />
+          <p>Mesa</p>
+        </li>
+        <li>
+          <img src="./img/hero_ropa.jpeg" alt="" />
+          <p>Ropa Hogar</p>
+        </li>
+        <li>
+          <img src="./img/hero_juguetes.jpeg" alt="" />
+          <p>Juguetes</p>
+        </li>
+        <li>
+          <img src="./img/hero_pines.jpeg" alt="" />
+          <p>Pines</p>
+        </li>
+        <li>
+          <img src="./img/hero_deportes.jpeg" alt="" />
+          <p>Deportes</p>
+        </li>
+        <li>
+          <img src="./img/hero_hiperofertas.jpeg" alt="" />
+          <p>Hiperofertas</p>
+        </li>
       </ul>
     </div>
-
-    <div class="search">
-      <input type="search" name="search" id="search" placeholder="¿Qué buscas hoy?">
+    <!-- BARRA INFERIOR -->
+    <div class="container">
+    <div class="infobar">
+      <ul class="infobar_list">
+        <li><img src="" alt="">Participa por la mitad de tu Computadores</li>
+        <li><img src="" alt="">Envío gratis a 900 municipios</li>
+        <li><img src="" alt="">30 días para cambios y devoluciones</li>
+        <li><img src="" alt="">Seguro gratis en celulares</li>
+      </ul>
     </div>
-
-    <div class="user">
-      <div class="button1">
-        <img src="./img/login.svg" alt="">
-        <p>Mi Cuenta</p>
-      </div>
-
-      <p>|</p>
-
-      <div class="button2">
-        <img src="./img/cart.svg" alt="">
-        <p>Mi Carrito</p>
-      </div>
-    
     </div>
-  </header>
-  
-</body>
+    <!-- END HERO -->
+
+    <!-- START OFERTAS 1 -->
+     <div class="container">
+      <h2>Aprovecha ofertas para todos</h2>
+      <div class="ofertas_cards">
+        <div></div>
+        <div></div>
+        <div></div>
+
+      </div>
+     </div>
+     <!-- END OFERTAS 1 -->
+  </body>
 </html>

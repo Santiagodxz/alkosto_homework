@@ -1,0 +1,27 @@
+.nav2{
+  display: flex;
+
+  .nav2_list{
+    display: flex;
+    font-size: 15px;
+
+    li{
+      padding: 8px;
+      border-right: 1px solid rgba(0, 0, 0, 0.123);
+      transition: 0.3s;
+
+      a {
+        color: #004797;
+      }
+
+    }
+  }
+}
+
+
+.nav2_list li:hover{
+  background-color: #004797;
+}
+.nav2_list li a:hover{
+  color: white;
+}

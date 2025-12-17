@@ -1,0 +1,22 @@
+@import url(navbar.css);
+@import url(nav2.css);
+@import url(hero.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
